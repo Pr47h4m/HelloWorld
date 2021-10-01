@@ -26,6 +26,6 @@ tput setaf 2; echo "running SH program using command 'sh helloworld.sh'"
 tput setaf 7; echo 
 sh helloworld.sh
 echo 
-tput setaf 2; echo "running Docker whalesay using command 'sudo docker run docker/whalesay cowsay \"Hello World\"'"
+tput setaf 2; echo "running Docker whalesay using command 'sudo docker run --rm docker/whalesay cowsay \"Hello World\"'"
 tput setaf 7; echo 
-sudo docker run docker/whalesay cowsay "Hello World"
+sudo docker run --rm docker/whalesay cowsay "Hello World"
