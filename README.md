@@ -1,33 +1,38 @@
 # Hello World
 
-## Running C program in linux terminal
+## Running C program
 ```bash
 gcc helloworld.c
 ./a.out
 ```
 
-## Running C++ program in linux terminal
+## Running C++ program
 ```bash
 g++ helloworld.cpp
 ./a.out
 ```
 
-## Running Java program in linux terminal
+## Running Java program
 ```bash
 java helloworld.java
 ```
 
-## Running Javascript program in linux terminal
+## Running Javascript program
 ```bash
 node helloworld.js
 ```
 
-## Running Python program in linux terminal
+## Running Python program
 ```bash
 python3 helloworld.py
 ```
 
-## Running SH program in linux terminal
+## Running SH program
 ```bash
 sh helloworld.sh
+```
+
+## Running Docker container
+```bash
+sudo docker run docker/whalesay cowsay "Hello World"
 ```
